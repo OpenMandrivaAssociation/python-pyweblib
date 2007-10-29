@@ -1,6 +1,6 @@
 Name:           python-pyweblib
 Version:        1.3.4
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Yet another web programming framework for Python
 License:        GPL
@@ -24,11 +24,11 @@ pyweblib.httphelper     very basic HTTP functions
 %setup -q -n pyweblib-%{version}
 
 %build
-CFLAGS="%{optflags}" %{_bindir}/python setup.py build
+CFLAGS="%{optflags}" %{__python} setup.py build
 
 %install
 %{__rm} -rf %{buildroot}
-%{_bindir}/python setup.py install --root=%{buildroot}
+%{__python} setup.py install --root=%{buildroot}
 
 %clean
 %{__rm} -rf %{buildroot}
