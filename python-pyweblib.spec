@@ -1,6 +1,6 @@
 Name:           python-pyweblib
 Version:        1.3.4
-Release:        %mkrel 2
+Release:        %mkrel 4
 Epoch:          0
 Summary:        Yet another web programming framework for Python
 License:        GPL
