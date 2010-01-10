@@ -1,5 +1,5 @@
 Name:           python-pyweblib
-Version:        1.3.5
+Version:        1.3.6
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Yet another web programming framework for Python
