@@ -7,8 +7,8 @@ License:        GPL
 Group:          Development/Python
 URL:            http://www.stroeder.com/pylib/PyWebLib/
 Source0:        http://www.stroeder.com/pylib/PyWebLib/download/pyweblib-%{version}.tar.gz
-%py_requires -d
 BuildArch:      noarch
+BuildRequires:	python
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
