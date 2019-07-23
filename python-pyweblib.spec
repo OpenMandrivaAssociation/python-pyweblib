@@ -1,12 +1,12 @@
 Name:           python-pyweblib
-Version:        1.3.6
-Release:        3
+Version:	1.3.13
+Release:	1
 Epoch:          0
 Summary:        Yet another web programming framework for Python
 License:        GPL
 Group:          Development/Python
 URL:            http://www.stroeder.com/pylib/PyWebLib/
-Source0:        http://www.stroeder.com/pylib/PyWebLib/download/pyweblib-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/96/a6/a82ff91cb37a8e2df8123b8d5ff70920bef19acc2a1330592465548aac63/pyweblib-1.3.13.tar.gz
 BuildArch:      noarch
 BuildRequires:	python
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
